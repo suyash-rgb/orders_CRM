@@ -10,8 +10,8 @@ function onchange(e) {
 	var teamData = teamSheet.getDataRange();
 	var teamValues = teamData.getValues();
 	var warehouseManager = teamValues[1][1];
-	var sneha = teamValues[2][1];
-	var abhishek = teamValues[3][1];
+	var member_1 = teamValues[2][1];
+	var member_2 = teamValues[3][1];
 
 
 	var editedSheetName = sheet.getSheetName();
